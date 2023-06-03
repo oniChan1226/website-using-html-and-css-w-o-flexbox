@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg1.jpg');
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid aqua; */
+    position: absolute;
+    left: 15px;
+    top: 24px;
+    text-align: center;
+    line-height: 17px;
+    font-size: 15px;
+}
+
+.mid {
+    /* which is by defaul display: block ;  */
+    display: block;
+    /* border: 2px solid aqua; */
+    width: 40%;
+    margin: 24px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: 24px;
+    /* border: 2px solid aqua; */
+}
+
+.navBar {
+    display: inline-block;
+}
+
+.navBar li {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.navBar li a {
+    color: white;
+    text-decoration: none;
+    padding: 24px 13px;
+}
+
+/* if hover at a or a is active  */
+.navBar li a:hover,
+.navBar li a.active {
+    text-decoration: underline;
+    color: rgb(112, 109, 109);
+}
+
+/* targeting class left img  */
+.left img {
+    width: 60px;
+    /* filter: invert(100%); this will reverse color of logo if black than white ank likewise  */
+    filter: invert(100%);
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 3px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(51, 50, 50);
+    color: grey;
+}
+
+.container {
+    color: rgb(168, 159, 159);
+    border: 2px solid grey;
+    margin: 100px 130px;
+    padding: 50px;
+    width: 33%;
+    border-radius: 26px;
+}
+
+.form-group input {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 6px;
+    border: 2px solid grey;
+    margin: 11px auto;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: black;
+}
+
+.form-group h2 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 49%;
+    margin: auto;
+}
+
+.options {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    margin: 9px 41px;
+}
+
+.options select {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    padding: 2px 51px;
+    color: grey;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.options select option{
+    background-color: black;
+}
+.options select:hover {
+    background-color: rgb(51, 50, 50);
+}
